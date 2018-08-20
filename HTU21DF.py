@@ -77,3 +77,8 @@ def read_humidity():
 	temperature = read_temperature()
 	humidity = ((25 - temperature) * -0.15) + uncomp_humidity
 	return humidity
+
+def terminate():
+	# Release pigpio resources.
+	pi.stop()
+
