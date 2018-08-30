@@ -1,5 +1,19 @@
 RaspberryPI_HTU21DF
 ===================
+
+Author: Carlos Mendoza
+
+This fork of the driver adds a terminate() function to release the pigpio
+resources.
+
+--------------------------------------------------------------------------------
+Notice from original author, D. Alex Gray at:
+
+https://github.com/dalexgray/RaspberryPI_HTU21DF
+--------------------------------------------------------------------------------
+
+RaspberryPI_HTU21DF
+===================
 This is a python driver to use with Adafruit's HTU21D-F breakout board.
 https://www.adafruit.com/product/1899
 
